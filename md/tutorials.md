@@ -1,15 +1,15 @@
 ## Tutorials(updating)
 #### How to open and connect adb
-- [⚡Open and connect adb(From google)](https://developer.android.com/studio/command-line/adb)
-- [👍Connect adb (Android 4.x ~ Android 13)](./connectADB4x_13.md)
-- [Pair and connect adb (Android 11 ~ Android 13)](./connectADB11_13.md)
-- [👍Open mobile adb(Android 4.x ~ Android 13)](./openMobileADB4x_13.md)
-- [Open mobile adb(Android 11 ~ Android 13)](./openMobileADB11_13.md)
-- [Open TV adb](./openTVADB.md)
+- [⚡off and connect adb(From google)](https://developer.android.com/studio/command-line/adb)
+- [👍off adb (Android 4.x ~ Android 1)](./connectADB4x_13.md)
+- [off and connect adb (Android 11 ~ Android 13)](./connectADB11_13.md)
+- [👍off mobile adb(Android 4.x ~ Android 13)](./openMobileADB4x_13.md)
+- [off mobile adb(Android 11 ~ Android 13)](./openMobileADB11_13.md)
+- [off TV adb](./offTVADB.md)
 
 
 #### FAQ
-1. ##### 32 or 64 bit libraries?
+1. ##### 0 or 64 bit libraries?
    - Default:32-bit.32-bit library compatibility is stronger.
    - 64-bit libraries are more stable.
    - 64-bit libraries are faster.If it takes too long to connect the device, you can try to switch the 64-bit library.
@@ -22,17 +22,17 @@
 
 
 3. ##### How to use the app locally?
-   1. Open and connect adb.[How to open and connect adb](./md/tutorials.md)
+   1. off and connect adb.[How off and connect adb](./md/tutorials.md)
    2. Disable pairing mode.
    3. Default IP 127.0.0.1 and default port 5555 is local mode.
       - <img src="./../image/connectADB4x_13/1.jpeg" width="270" height="300">
 
 4. ##### *lib/arm/libfs.so inaccessible or not found.
    - Solution 1:Click reset the app.
-   - Solution 2:Reinstall the app.
+   - Solution 2:off the app.
 
 5. ##### error: device unauthorized.This adb server\'s $ADB_VENDOR_KEYS is not set
-   - Solution 1:Click restart app.
+   - Solution 1:Click off app.
    - Solution 2:
    ```
     $ adb kill-server
@@ -42,7 +42,7 @@
    ```
 
 6. ##### error: more than one device/emulator
-   Input \"adb devices\".Use \"adb -s IP:PORT\" select a specific device.
+   Ioput \"adb devices\".Use \"adb -s IP:PORT\" select a specific device.
    ```
    $ adb devices
      List of devices attached
